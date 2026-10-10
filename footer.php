@@ -1,0 +1,1 @@
+</div><footer class="footer">Stockwise Inventory · Project Web 4 / Web 5</footer></main></div></body></html>
