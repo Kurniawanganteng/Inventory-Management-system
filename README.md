@@ -8,13 +8,6 @@ Project ini disusun mengikuti materi:
 - `php-native/` — aplikasi PHP Native yang dapat dijalankan dengan PHP + MySQL.
 - `laravel-source/` — file inti untuk dimasukkan ke project Laravel baru. Folder `vendor/` tidak disertakan; install Laravel dengan Composer terlebih dahulu.
 
-## Menjalankan PHP Native
-1. Install XAMPP atau PHP + MySQL.
-2. Salin folder `php-native` ke `htdocs`.
-3. Buat database dengan mengimpor `php-native/database/schema.sql` melalui phpMyAdmin.
-4. Sesuaikan koneksi di `php-native/config/database.php`.
-5. Buka `http://localhost/php-native/`.
-6. Akun awal: `admin` / `password` dan `staff` / `password`. Ganti password setelah login untuk penggunaan nyata.
 
 Fitur: login/logout, role admin/staff, CRUD kategori/produk/supplier, relasi produk-supplier, transaksi barang masuk/keluar dengan transaksi database, histori stok, pencarian/filter/sorting/pagination produk, dashboard dan laporan stok.
 
